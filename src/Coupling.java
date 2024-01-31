@@ -14,7 +14,7 @@ public class Coupling {
 		com.keyboardUsed(kb);
 		
 		//we can create object of LenovoKeyboard and DellKeyboard individually as given below
-		//instead of using interface refernce variable.
+		//instead of using interface reference variable.
 		
 		// creating an object of the class LenovoKeyboard  
 		//LenovoKeyboard lk = new LenovoKeyboard();  
@@ -24,6 +24,12 @@ public class Coupling {
 		//DellKeyboard dk = new DellKeyboard();  
 		 //com.keyboardUsed(dk);  
 		
-		//question - do we have dynamic binding in interface	
+			
 	}
+	//Another Architecture of the above class Using Constructor
+	//Constructor makes it purely loosely coupled.
+	
+	//Computer com=new Computer(new DellKeyboard());
+	//com.keyboardUsed();
+	
 }
