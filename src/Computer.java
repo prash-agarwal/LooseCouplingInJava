@@ -1,6 +1,6 @@
 
 public class Computer {
-	
+									
 	public void keyboardUsed(Keyboard k)  
 	{  
 	System.out.println("The computer is using " + k.display());  
@@ -37,4 +37,3 @@ public class Computer {
 	//Coupling ------>Computer------>Keyboard
 	//							 (Interface) |	
 	//										  ------->LenovoKeyboard
-
